@@ -40,6 +40,9 @@ export default {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        Helvetica:['Arial','Helvetica','sans-serif'],
+        oswald:['Oswald'],
+        raleway:[ '"Raleway"', 'sans-serif']
       },
       colors: {
         'primary': "#ECEEFF",

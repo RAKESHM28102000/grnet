@@ -1,5 +1,5 @@
-import { img2 } from "../assets/images";
-import { facebook,twitter,instagram } from "../assets/icons";
+import { gr, img2 } from "../assets/images";
+import { instagrami, linkedin, youtube } from "../assets/icons";
  
 export const navLink=[{label:"Home",href:"/"},
 {label:"About Us",href:"/about"},
@@ -53,65 +53,65 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "grnetwork@gmail.com", link: "mailto:grnetwork@gmail.com" },{ name: "+91-9750417833", link: "tel:+9750417833" },
+            { name: "ceo@gowthamrajnetwork.com", link: "mailto:ceo@gowthamrajnetwork.com" },{ name: "+91-9750417833", link: "tel:+9750417833" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src:youtube , alt: "youtube logo",link:"https://youtube.com/@GOWTHAMRAJNETWORK"},
+    { src:linkedin, alt: "linkedin logo",link:"https://www.linkedin.com/company/gowthamrajnetwork/" },
+    { src: instagrami, alt: "instagram logo",link:"https://www.instagram.com/gowthamraj_network" },
 ];
 export const reviews = [
     {
-        imgURL:img2,
+        imgURL:gr,
         name: 'GOWTHAM RAJ',
         experience:"3+ years of experience",
         role: "Founder & Chairman ",
         link:"https://www.linkedin.com/in/gowthamrajceg/"
     },
-    {
-        imgURL:img2,
-        name: 'GOWTHAM RAJ',
-        experience:"3+ years of experience",
-        role: "Founder&Chairman ",
-        link:"https://www.linkedin.com/in/gowthamrajceg/"
-    },
-    {
-        imgURL:img2,
-        name: 'GOWTHAM RAJ',
-        experience:"3+ years of experience",
-        role: "Founder&Chairman ",
-        link:"https://www.linkedin.com/in/gowthamrajceg/"
-    },
-    {
-        imgURL:img2,
-        name: 'GOWTHAM RAJ',
-        experience:"3+ years of experience",
-        role: "Founder&Chairman ",
-        link:"https://www.linkedin.com/in/gowthamrajceg/"
-    },
-    {
-        imgURL:img2,
-        name: 'GOWTHAM RAJ',
-        experience:"3+ years of experience",
-        role: "Founder&Chairman ",
-        link:"https://www.linkedin.com/in/gowthamrajceg/"
-    },
-    {
-        imgURL:img2,
-        name: 'GOWTHAM RAJ',
-        experience:"3+ years of experience",
-        role: "Founder&Chairman ",
-        link:"https://www.linkedin.com/in/gowthamrajceg/"
-    },
-    {
-        imgURL:img2,
-        name: 'GOWTHAM RAJ',
-        experience:"3+ years of experience",
-        role: "Founder&Chairman ",
-        link:"https://www.linkedin.com/in/gowthamrajceg/"
-    },
+    // {
+        // imgURL:img2,
+        // name: 'GOWTHAM RAJ',
+        // experience:"3+ years of experience",
+        // role: "Founder&Chairman ",
+        // link:"https://www.linkedin.com/in/gowthamrajceg/"
+    // },
+    // {
+        // imgURL:img2,
+        // name: 'GOWTHAM RAJ',
+        // experience:"3+ years of experience",
+        // role: "Founder&Chairman ",
+        // link:"https://www.linkedin.com/in/gowthamrajceg/"
+    // },
+    // {
+        // imgURL:img2,
+        // name: 'GOWTHAM RAJ',
+        // experience:"3+ years of experience",
+        // role: "Founder&Chairman ",
+        // link:"https://www.linkedin.com/in/gowthamrajceg/"
+    // },
+    // {
+        // imgURL:img2,
+        // name: 'GOWTHAM RAJ',
+        // experience:"3+ years of experience",
+        // role: "Founder&Chairman ",
+        // link:"https://www.linkedin.com/in/gowthamrajceg/"
+    // },
+    // {
+        // imgURL:img2,
+        // name: 'GOWTHAM RAJ',
+        // experience:"3+ years of experience",
+        // role: "Founder&Chairman ",
+        // link:"https://www.linkedin.com/in/gowthamrajceg/"
+    // },
+    // {
+        // imgURL:img2,
+        // name: 'GOWTHAM RAJ',
+        // experience:"3+ years of experience",
+        // role: "Founder&Chairman ",
+        // link:"https://www.linkedin.com/in/gowthamrajceg/"
+    // },
 ];
 

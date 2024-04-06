@@ -38,7 +38,7 @@ const textVariants1 = {
   },
 };
 const About = () => {
-  return(<section id="about" className="w-full min-h-screen p-2 mx-auto bg-bg3 bg-cover flex flex-col overflow-hidden font-mono">
+  return(<section id="about" className="w-full min-h-screen p-2 mx-auto bg-bg3 bg-cover flex flex-col overflow-hidden">
        <motion.div className="w-full  p-2 mx-auto  flex flex-col lg:flex-row lg:justify-between overflow-hidden font-mono gap-3">
        {/* first-child */}
        <motion.div variants={textVariants1} whileInView="animate" initial="initial" className="flex flex-col justify-center items-center gap-4 lg:w-2/5 w-full">

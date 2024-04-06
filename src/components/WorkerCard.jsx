@@ -6,7 +6,7 @@ const WorkerCard = ({ imgURL, customerName, rating, feedback,link }) => {
       <img
         src={imgURL}
         alt='customer'
-        className='rounded-md ring-4 ring-transparent hover:ring-[#200E3A] object-cover w-[120px] h-[120px]'
+        className='rounded-md ring-4 ring-transparent hover:ring-[#200E3A] object-cover w-[300px] h-[300px]'
       />
       <p  className='mt-6 min-w-[240px] text-white hover:bg-white hover:text-[#200E3A] hover:ring-transparent bg-[#200E3A] ring-2 ring-[#200E3A] p-2 rounded-md uppercase max-w-sm text-center info-text'>{feedback}</p>
       <p  className='mt-3 min-w-[240px] text-white hover:bg-white hover:text-[#200E3A] hover:ring-transparent bg-[#200E3A] ring-2 ring-[#200E3A] p-2 rounded-md capitalize  text-sm text-center font-montserrat '>{rating}</p>

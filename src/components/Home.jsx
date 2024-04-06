@@ -5,7 +5,7 @@ import Work from "./Work";
 import Gallery from "./Gallery";
 import Workers from "./Worker";
 import Contact from "./Contact";
-import Coursel from "./Coursel";
+// import Coursel from "./Coursel";
 const textVariants = {
   initial: {
     x:-200,
@@ -31,7 +31,7 @@ const textVariants = {
 };
 const Home = () => {
   return (<>
-    <section id="home" className="w-full min-h-screen px-2 flex flex-col lg:flex-row lg:justify-between bg-bg1 bg-cover overflow-hidden font-mono mx-auto ">
+    <section id="home" className="w-full min-h-screen px-2 flex flex-col lg:flex-row lg:justify-between bg-bg1 bg-cover overflow-hidden mx-auto ">
         <motion.div variants={textVariants} whileInView="animate" initial="initial" className="text-left w-full lg:w-3/5 min-h-screen px-4 text-white  flex flex-col justify-center gap-5">
           <motion.h1 variants={textVariants} className=" text-[#2c2c2c] bg-[#DAFFFB] text-2xl xl:text-4xl inline-block p-4 font-bold  rounded-md shadow-lg shadow-black hover:shadow-white ">GOWTHAMRAJ NETWORK INDIA PRIVATE LIMITIED</motion.h1>
           <motion.h1 variants={textVariants} className="bg-[#F1B4BB] text-[#132043]  text-2xl  xl:text-3xl  rounded-md p-4 shadow-lg shadow-black  hover:shadow-white">EDUCATION TECHNOLOGY MEDIA COMPANY</motion.h1>
@@ -48,7 +48,7 @@ const Home = () => {
        <Gallery/>
        <Workers/>
        <Contact/>
-       <Coursel/>
+       {/* <Coursel/> */}
        </>
   
   )

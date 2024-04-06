@@ -6,10 +6,10 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const [sidebar,setSidebar]=useState(false);
   return (
-    <header  className="xl:text-lg w-full py-4 min-h-[70px]  bg-black text-zinc-100  font-semibold drop-shadow-lg shadow-sm shadow-gray-800 relative z-50">
+    <header  className="xl:text-lg w-full py-4 min-h-[70px] backdrop-blur-sm bg-gray-800 bg-transparent text-zinc-100  font-semibold drop-shadow-lg shadow-sm shadow-gray-800 relative z-50">
         <nav className="flex justify-between items-center w-[99%] h-full mx-auto  ">
-            <h1 className=" ring-2 ring-white hover:ring-emerald-300 bg-gradient-to-l from-cyan-400 to-cyan-200 text-black p-4 rounded-2xl shadow-lg shadow-gray-800 font-bold">GR NETWORK</h1>
-            <ul className="lg:flex justify-between items-center hidden  shadow-lg shadow-gray-800 bg-gradient-to-r from-cyan-400 to-cyan-200 py-1 px-2 ring-2 ring-white hover:ring-emerald-400 rounded-2xl  gap-4 ">
+            <h1 className=" ring-2 ring-white hover:ring-emerald-300 bg-gradient-to-l from-pink-500 to-blue-300 backdrop-blur-md text-black p-4 rounded-2xl shadow-lg shadow-gray-800 font-bold">GR NETWORK</h1>
+            <ul className="lg:flex justify-between items-center hidden  shadow-lg shadow-gray-800 bg-gradient-to-r from-indigo-600 to-pink-500 backdrop-blur-lg py-1 px-2 ring-2 ring-white hover:ring-emerald-400 rounded-2xl  gap-4 ">
                 {navLink.map((item,index)=>{
                     return <NavLink to={item.href} key={index}><li className='hover:text-zinc-900 text-black border-2 border-transparent font-bold  hover:bg-white px-4 py-2  hover:border-white-400 rounded-2xl'>{item.label}</li></NavLink>
                 })}
